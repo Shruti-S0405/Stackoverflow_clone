@@ -1,0 +1,31 @@
+@import url(./themestyling.css);
+.home-container-1 {
+  min-height: 100vh;
+  max-width: 1250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% auto;
+  background-color: var(--bg-clr);
+  color: var(--font-clr);
+}
+.home-container-2 {
+  margin-left: 164px;
+  max-width: 1100px;
+  width: calc(100% - 164px);
+  border-left: 1px solid var(--border);
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .home-container-1 {
+    flex-direction: column;
+  }
+
+  .home-container-2 {
+    margin-left: 0;
+    width: 100%;
+    border-left: none;
+    padding: 16px;
+  }}

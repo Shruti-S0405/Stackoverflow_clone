@@ -1,0 +1,25 @@
+.cmn-tags{
+    background-color: var(--tags-bg);
+    color:var(--tag-clr);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.cmn-tags:hover{
+    background-color: var(--tag-hvr);
+    color: var(--tag-hvr-clr);
+}
+.cmn-btn{
+    background-color:var(--cmn-btn-bg) ;
+    color:var(--black-050) ;
+    font-size:13px ;
+    font-weight:600 ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cmn-btn:hover{
+    background-color: var(--blue-500);
+}

@@ -1,0 +1,102 @@
+.main-bar {
+    width: calc(100% - 330px);
+    float: left;
+    margin: 25px 0px;
+    padding: 0;}
+
+.main-bar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-bar-header h1{
+    font-weight:400;
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.main-bar-header .ask-btn{
+
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: rgb(27, 117, 208);
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-bar-header .ask-btn:hover{
+    background-color: #0086d8;
+}
+
+.display-question-container{
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px var(--stack-orange);
+    color: var(--font-clr);
+}
+.display-question-container .display-votes-ans{
+    padding: 20px;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.display-question-details{
+    flex-grow: 1;
+    padding-right: 20px;
+}
+.question-title-link{
+    text-decoration: none;   
+    color: var(--blue-font);   
+    transition: 0.3s;   
+    font-weight: 400; 
+    font-size: 17px;
+}  
+.question-title-link:hover{  
+    color: #009dff;
+}
+.display-question-details p{ 
+    padding: 4px;    
+    margin: 0%;    
+}    
+    
+.display-tags-time .display-tags{    
+    display: flex;    
+    flex-wrap: wrap;
+}
+.display-tags-time{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.display-tags-time {
+    margin: 2px ;
+    padding: 4px;
+    font-size: 13px;
+    color: #39739b;
+}
+.display-tags-time .display-time{
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1020px) {
+    .main-bar {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .display-question-container .display-votes-ans {
+      padding: 10px;
+    }
+  }
