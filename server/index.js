@@ -22,7 +22,7 @@ dotenv.config()
 
 const PORT = process.env.PORT || 4003;
 
-const DATABASE_CONN = 'mongodb+srv://admin:<password>@stackoverflow.ah6cx4y.mongodb.net/stackoverflowdb' ;
+const DATABASE_CONN = 'mongodb+srv://admin:admin@stackoverflow.ah6cx4y.mongodb.net/stackoverflowdb' ;
 {console.log(process.env.CONNECTION_URL)}
 mongoose.connect(DATABASE_CONN, {
   useNewUrlParser: true,
